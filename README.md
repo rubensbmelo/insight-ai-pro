@@ -2,6 +2,15 @@
 
 > Elite Business Intelligence dashboard for Commercial Representatives — built with the design quality of Linear and Vercel, powered by real sales data.
 
+[![React](https://img.shields.io/badge/React-19-61DAFB?style=flat&logo=react)](https://react.dev)
+[![TypeScript](https://img.shields.io/badge/TypeScript-6-3178C6?style=flat&logo=typescript)](https://typescriptlang.org)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind-v4-06B6D4?style=flat&logo=tailwindcss)](https://tailwindcss.com)
+[![Vite](https://img.shields.io/badge/Vite-8-646CFF?style=flat&logo=vite)](https://vitejs.dev)
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-insight--ai--pro.vercel.app-black?style=flat&logo=vercel)](https://insight-ai-pro-pink.vercel.app/)
+
+🚀 **Live Demo:** [insight-ai-pro-pink.vercel.app](https://insight-ai-pro-pink.vercel.app/)
+🔗 **Repository:** [github.com/rubensbmelo/insight-ai-pro](https://github.com/rubensbmelo/insight-ai-pro)
+
 <img src="./screenshots/dashboard-top.png" alt="InsightAI Dashboard - KPIs & Charts" width="900" />
 <img src="./screenshots/dashboard-bottom.png" alt="InsightAI Dashboard - AI Insights & Leads" width="900" />
 
@@ -63,8 +72,8 @@ This project uses **Tailwind CSS v4** with the new CSS-native approach:
 - `AreaChart` with `ResponsiveContainer` for fluid layout
 - `linearGradient` fills defined in `<defs>` — top opacity ~0.30, bottom bleeds to 0.01 for depth
 - Dual `YAxis` (`yAxisId="left"` for USD, `yAxisId="right"` for tonnage) — different scales, no visual collision
-- Custom `Tooltip` built with inline styles (intentional — Recharts portals the tooltip outside the React tree)
-- `vertical={false}` on `CartesianGrid` + `stroke="rgba(255,255,255,0.06)"` for the "invisible grid" effect
+- Custom `Tooltip` built with inline styles — Recharts portals the tooltip outside the React tree
+- `vertical={false}` on `CartesianGrid` + `stroke="rgba(255,255,255,0.06)"` for the invisible grid effect
 
 ---
 
@@ -74,7 +83,7 @@ This project uses **Tailwind CSS v4** with the new CSS-native approach:
 src/
 ├── components/
 │   ├── layout/
-│   │   └── Shell.tsx          # Sidebar + TopBar (AI Command Bar) + mobile drawer
+│   │   └── Shell.tsx           # Sidebar + TopBar (AI Command Bar) + mobile drawer
 │   └── dashboard/
 │       ├── KPICards.tsx        # Four metric cards with staggered animation
 │       ├── CommissionGap.tsx   # Progress bar with shimmer + dynamic color zones
@@ -93,7 +102,7 @@ src/
 
 ```bash
 # Clone the repository
-git clone https://github.com/YOUR_USERNAME/insight-ai-pro.git
+git clone https://github.com/rubensbmelo/insight-ai-pro.git
 
 # Navigate into the project
 cd insight-ai-pro
@@ -105,7 +114,7 @@ npm install
 npm run dev
 ```
 
-Open [http://localhost:5173](http://localhost:5173) — the dashboard loads instantly.
+Run `npm run dev` and open the local URL shown in your terminal.
 
 ---
 
