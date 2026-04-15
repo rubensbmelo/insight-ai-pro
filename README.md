@@ -2,7 +2,7 @@
 
 > Elite Business Intelligence dashboard for Commercial Representatives — built with the design quality of Linear and Vercel, powered by real sales data.
 
-![InsightAI Dashboard](./screenshots/dashboard.png)
+<img src="./screenshots/dashboard.png" alt="InsightAI Dashboard" width="900" />
 
 ---
 
